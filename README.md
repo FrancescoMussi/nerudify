@@ -1,7 +1,7 @@
 # Nerudify
 This is a generative poem application. <br/>
 You can enter you text or select one of the five Trump's speeches given as prompt. <br/>
-This text will be blended with a random piece of poem taken from a selection of 23 Pablo Neruda's poems.<br/>
+This text will be blended with a random piece of poem taken from a selection of 22 Pablo Neruda's poems.<br/>
 If you enter your own custom text remember to give some punctuation in order to make it working nicely.
 
 <h3>Neruda's poems</h3>
