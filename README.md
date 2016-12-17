@@ -2,7 +2,7 @@
 
 https://francescomussi.github.io/nerudify/ <br/>
 
-This is a generative poem application. <br/>
+This is a generative poem application made with p5.js <br/>
 You can enter you text or select one of the five Trump's speeches given as prompt. <br/>
 This text will be blended with a random piece of poem taken from a selection of 22 Pablo Neruda's poems.<br/>
 If you enter your own custom text remember to give some punctuation in order to make it working nicely.
