@@ -28,31 +28,22 @@ function setup() {
   // Setup Neruda poems
   referenceText = join(referenceText, " ");
   phrasesNeruda = splitTokens(referenceText, ";.");
-  //phrasesNeruda = phrasesNeruda.toLowerCase();
-
-//  console.log(phrasesNeruda);
 
   // Setup Speeches
   speech1Reference = join(speech1Reference, " ");
   speech1Final = splitTokens(speech1Reference, ";.:!?");
-//  speech1Final = speech1Final.toLowerCase();
 
   speech2Reference = join(speech2Reference, " ");
   speech2Final = splitTokens(speech2Reference, ";.:!?");
-//  speech2Final = speech2Final.toLowerCase();
 
   speech3Reference = join(speech3Reference, " ");
   speech3Final = splitTokens(speech3Reference, ";.:!?");
-//  speech3Final = speech3Final.toLowerCase();
 
   speech4Reference = join(speech4Reference, " ");
   speech4Final = splitTokens(speech4Reference, ";.:!?");
-//  speech4Final = speech4Final.toLowerCase();
 
   speech5Reference = join(speech5Reference, " ");
   speech5Final = splitTokens(speech5Reference, ";.:!?");
-//  speech5Final = speech5Final.toLowerCase();
-
 
   sourceText = select('#source');
 
@@ -123,6 +114,7 @@ function setup() {
   });
 
   resultContainer = select('#resultContainer');
+  warningContainer = select('#warningContainer');
 
 }
 
@@ -130,19 +122,27 @@ function setup() {
 
 function nerudify()
 {
-  var phrases = splitTokens(sourceText.value(), ",;.:!?");
-  console.log(phrases);
-
-  for (var i = 0; i < phrases.length; i++)
+  if (sourceText.value() == '')
   {
-    randomPoemLine = Math.floor(random(phrasesNeruda.length));
-    finalPoem[i] = phrases[i] + " " + phrasesNeruda[randomPoemLine];
-    finalPoem[i] = finalPoem[i].toLowerCase();
+    resultContainer.class("alert alert-warning");
+    resultContainer.elt.innerHTML = 'Please enter some text dude!';
   }
+  else
+  {
+    var phrases = splitTokens(sourceText.value(), ",;.:!?");
+    console.log(phrases);
 
-   // createP(finalPoem);
-   resultContainer.class("alert alert-info");
-   resultContainer.elt.innerHTML = finalPoem;
+    for (var i = 0; i < phrases.length; i++)
+    {
+      randomPoemLine = Math.floor(random(phrasesNeruda.length));
+      finalPoem[i] = phrases[i] + " " + phrasesNeruda[randomPoemLine];
+      finalPoem[i] = finalPoem[i].toLowerCase();
+    }
+
+     resultContainer.class("alert alert-info");
+     resultContainer.elt.innerHTML = finalPoem;
+
+  }
 
 
 
