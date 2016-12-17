@@ -1,9 +1,10 @@
 # Nerudify
-Generative poem application.
-You can enter you text or select one of the five Trump's speeches given as prompt.
-This text will be blended with a random piece of poem taken from a selection of 23 Pablo Neruda's poems.
+This is a generative poem application. <br/>
+You can enter you text or select one of the five Trump's speeches given as prompt. <br/>
+This text will be blended with a random piece of poem taken from a selection of 23 Pablo Neruda's poems.<br/>
 If you enter your own custom text remember to give some punctuation in order to make it working nicely.
 
+<h3>Neruda's poems</h3>
 This are the 22 poems of Neruda used by the application:
 
 <ul>
@@ -31,7 +32,9 @@ This are the 22 poems of Neruda used by the application:
 <li>Tonight i can write the saddest linese</li>
 </ul>
 
-These are the sources from where have been taken the Trump speeches:
+<h3>Trump's speeches</h3>
+These are the sources from where have been taken the Trump speeches.<br/>
+For readability reasons the full transcript has been cut and reduced in lenght.
 
 <ul>
 <li>http://www.realclearpolitics.com/video/2016/08/18/watch_live_donald_trump_gives_first_campaign_speech_since_hiring_stephen_bannon.html</li>
@@ -41,7 +44,7 @@ These are the sources from where have been taken the Trump speeches:
 <li>http://www.nytimes.com/2016/11/10/us/politics/trump-speech-transcript.html</li>
 </ul>
 
-For readability reasons the full transcript has been cut and reduced in lenght.
+
 
 
 
