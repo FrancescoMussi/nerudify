@@ -12,7 +12,7 @@ This are the 22 poems of Neruda used by the application:
 <li>Always</li>
 <li>Cats Dream</li>
 <li>Clenched Soul</li>
-<li>Come With Me I Said And No One Knew (VII)</li>
+<li>Come With Me I Said And No One Knew</li>
 <li>Dont Go Far Off Not Even For A Day</li>
 <li>Drunk As Drunk</li>
 <li>Enigmas</li>
@@ -29,7 +29,7 @@ This are the 22 poems of Neruda used by the application:
 <li>Saddest Poem</li>
 <li>The Dictators</li>
 <li>The Light Wraps You</li>
-<li>Tonight i can write the saddest linese</li>
+<li>Tonight i can write the saddest lines</li>
 </ul>
 
 <h3>Trump's speeches</h3>
