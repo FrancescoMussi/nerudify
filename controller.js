@@ -53,64 +53,64 @@ function setup() {
   speech1 = select("#speech1");
   speech1.mousePressed(function functionName()
   {
-    sourceText.elt.innerHTML = '';
+    sourceText.elt.value = '';
     speech1.class("list-group-item active");
     speech2.class("list-group-item");
     speech3.class("list-group-item");
     speech4.class("list-group-item");
     speech5.class("list-group-item");
-    sourceText.elt.innerHTML = speech1Final;
+    sourceText.elt.value = speech1Final;
   });
 
   speech2 = select("#speech2");
   speech2.mousePressed(function functionName()
   {
-    sourceText.elt.innerHTML = '';
+    sourceText.elt.value = '';
     speech1.class("list-group-item");
     speech2.class("list-group-item active");
     speech3.class("list-group-item");
     speech4.class("list-group-item");
     speech5.class("list-group-item");
-    sourceText.elt.innerHTML = speech2Final;
+    sourceText.elt.value = speech2Final;
   });
 
   speech3 = select("#speech3");
   speech3.mousePressed(function functionName()
   {
-    sourceText.elt.innerHTML = '';
+    sourceText.elt.value = '';
     speech1.class("list-group-item");
     speech2.class("list-group-item");
     speech3.class("list-group-item active");
     speech4.class("list-group-item");
     speech5.class("list-group-item");
 
-    sourceText.elt.innerHTML = speech3Final;
+    sourceText.elt.value = speech3Final;
   });
 
   speech4 = select("#speech4");
   speech4.mousePressed(function functionName()
   {
-    sourceText.elt.innerHTML = '';
+    sourceText.elt.value = '';
     speech1.class("list-group-item");
     speech2.class("list-group-item");
     speech3.class("list-group-item");
     speech4.class("list-group-item active");
     speech5.class("list-group-item");
 
-    sourceText.elt.innerHTML = speech4Final;
+    sourceText.elt.value = speech4Final;
   });
 
   speech5 = select("#speech5");
   speech5.mousePressed(function functionName()
   {
-    sourceText.elt.innerHTML = '';
+    sourceText.elt.value = '';
     speech1.class("list-group-item");
     speech2.class("list-group-item");
     speech3.class("list-group-item");
     speech4.class("list-group-item");
     speech5.class("list-group-item active");
 
-    sourceText.elt.innerHTML = speech5Final;
+    sourceText.elt.value = speech5Final;
   });
 
   resultContainer = select('#resultContainer');
